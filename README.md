@@ -1,4 +1,4 @@
-# HTTP-API-Web-Testing-Kit
+# Saucy.php
 Automation of HTTP, HTTPS, API and UI using PHPUnit, Behat, Mink, Pear and Selenium.
 
 ## Dependancies
@@ -13,7 +13,7 @@ On Mac OS X, this requires:
 ## Installation
 ##Clone It
 
-	git clone https://github.com/sajjadhossain/HTTP-API-Web-Testing-Kit.git
+	git clone https://github.com/sajjadhossain/SaucyPHP.git
 
 ##Start Selenium
 Open Terminal, go to the project folder, and run:
@@ -61,6 +61,10 @@ A good example of this is accomplished for the help-center.
 These parameters can be combined, for say when you want reports generated for tests executed against scenarios grouped in a tag. 
 
 	bin/behat --tags "@helpCenter" --out report/<name>.html
+
+###More
+
+See `Guidelines.md` within this directory on how to run these tests against multiple browsers and on the cloud. Includes iOS and Android, Phone and Tablets.
 
 ##Components
 The below **ARE NOT REQUIREMENTS/DEPENDANCIES** , they simply make this tool functional. This repository is powered by:
